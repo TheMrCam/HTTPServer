@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thanks for voting!</title>
+  <style>
+    table{
+      border-style: solid;
+      border-width: medium;
+    }
+  </style>
+</head>
+<body>
+  <p>Thank you for voting for spaceshow</p>
+  <p>The current vote totals are:</p>
+  <table border='1'>
+    <tr>
+      <th>Star Wars</th>
+      <th>Star Trek</th>
+    </tr>
+    <tr>
+      <td>$SWVotes</td>
+      <td>$STVotes</td>
+    </tr>
+  </table>
+</body>
+</html>
